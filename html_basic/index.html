@@ -3,18 +3,112 @@
 <head>
     <title>My First Portfolio</title>
     <meta charset="UTF-8">
+    <style>
+        /* Add the CSS styling here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        header {
+            background-color: #2c7be5;
+            color: white;
+            padding: 1em 2em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: white;
+            margin-left: 1.5em;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            display: flex;
+            max-width: 1000px;
+            margin: 2em auto;
+            padding: 0 1em;
+            gap: 2em;
+        }
+        article {
+            flex: 3;
+            background: white;
+            padding: 2em;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        aside {
+            flex: 1;
+            background: white;
+            padding: 1.5em;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            font-size: 0.9em;
+            line-height: 1.4;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 2em;
+            background-color: #2c7be5;
+            color: white;
+            margin-top: 3em;
+        }
+        h1, h2, h3 {
+            color: #1a1a1a;
+        }
+        img {
+            width: 80px;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <p>This is the first paragraph.</p>
-    <h2>This is the second header</h2>
-    <p>This is the second paragraph</p>
-    <h3>This is the second header</h3>
-    <a href="https://www.alxafrica.com" target="_blank" rel="noopener noreferrer">
+    <header>
+        <h1>My Creative Corner</h1>
+        <a href="https://www.alxafrica.com" target="_blank" rel="noopener noreferrer">
         <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Logo">
     </a>
-    <p>This is the third paragraph</p>
-    <p>This is the forth paragraph</p>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Unleashing Creativity Through Web Development</h2>
+            <p>Welcome to my blog, where I share my passion for web development and design. Whether you are a beginner or have some experience, this space is dedicated to exploring the exciting world of coding and creativity.</p>
+            <h3>The Power of Building on the Web</h3>
+            <P>Every website tells a story, powered by lines of code and inspired by ideas. As developers, we get to bring concepts to life in ways that are interactive, beautiful, and functional. The web is a canvas where endless possibilities blossom.</P>
+            <h3>What to Expect Here</h3>
+            <ul>
+              <li>Hands-on tutorials to sharpen your skills</li>
+              <li>Project stories and lessons learned</li>
+              <li>Design principles to enhance user experience</li>
+              <li>Explorations on emerging technologies</li>
+              <li>Personal growth and career tips</li>
+            </ul>
+            <p>Join me on this journey as we dive into the art and science of web development. Let's create, innovate, and inspire together!</p>
+        </article>
+        <aside>
+            <h2>About Me</h2>
+            <p>I'm a passionate web developer and designer who loves to create beautiful and functional websites. With a background in computer science and a keen eye for design, I enjoy blending technology with creativity to build engaging user experiences.</p>
+        </aside>
+    </main>
+    <footer>
+        <p>Made by Eniola Omoniyi - <a href="https://github.com/Ennyolatobi/curate_cathy.git" target="_blank">here</a>. </p>
+    </footer>
+    
+ 
 
 </body>
 </html>
