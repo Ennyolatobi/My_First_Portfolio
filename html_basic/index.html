@@ -43,6 +43,18 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
+
+        table {
+  border-collapse: collapse; /* Collapses cell borders into single border */
+  width: 100%; /* Optional, makes table full width */
+}
+
+th, td {
+  border: 1px solid black; /* Adds black border around each cell */
+  padding: 8px; /* Adds padding inside cells for readability */
+  text-align: left; /* Optional alignment */
+}
+
         aside {
             flex: 1;
             background: white;
@@ -96,6 +108,38 @@
                 <li>Personal growth and career tips</li>
             </ul>
             <p>Join me on this journey as we dive into the art and science of web development. Let's create, innovate, and inspire together!</p>
+            <table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Country</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>John</td>
+      <td>25</td>
+      <td>USA</td>
+    </tr>
+    <tr>
+      <td>Emily</td>
+      <td>28</td>
+      <td>Canada</td>
+    </tr>
+    <tr>
+      <td>Michael</td>
+      <td>32</td>
+      <td>Australia</td>
+    </tr>
+    <tr>
+      <td>Sophia</td>
+      <td>21</td>
+      <td>UK</td>
+    </tr>
+  </tbody>
+</table>
+
         </article>
         <aside>
             <h2>About Me</h2>
